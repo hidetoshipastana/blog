@@ -1,0 +1,1 @@
+# um blog para se tratar de empreendedorismo

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
 	<title>Hidetoshi Pastana - Artigos ao gosto do Google</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="js/countUP.min.js"></script>
@@ -32,6 +33,8 @@
 		}
 		#artigos{
 			background-color: #c0392b;
+			padding-top: 10px;
+			padding-bottom: 10px;
 		}
 			#categoria {
 				color: white;
@@ -39,6 +42,21 @@
 		#about-me{
 			background-color: #8e44ad;
 			color: white;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+		.artigo-item{
+			background-color: rgba(255,255,255, 0.6);
+			border-radius: 5px;
+			padding: 20px;			
+		}
+		.skill{
+			background-color: #95a5a6;
+			padding: 10px;
+			border-radius: 6px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			text-align: center;
 		}
 	</style>
 </head>
@@ -79,16 +97,22 @@
 
 			<div class="row">
 				<div class="col-md-4 col-xs-4">
-					<p class="display-4" id="empre"></p>
+					<div class="artigo-item">
+						<p class="display-4" id="empre"></p>
 					<p class="lead"  id="categoria">Artigos sobre empreendedorismo</p>
+					</div>
 				</div>
 				<div class="col-md-4 col-xs-4">
-					<p class="display-4" id="empre"></p>
-					<p class="lead"  id="categoria">Artigos sobre </p>
+					<div class="artigo-item">
+						<p class="display-4" id="empre"></p>
+						<p class="lead"  id="categoria">Artigos sobre psicologia prática</p>
+					</div>
 				</div>
 				<div class="col-md-4 col-xs-4">
-					<p class="display-4" id="empre"></p>
-					<p class="lead"  id="categoria">Artigos sobre saúde</p>
+					<div class="artigo-item">
+						<p class="display-4" id="empre"></p>
+						<p class="lead"  id="categoria">Artigos sobre mindset</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -97,7 +121,10 @@
 	<section id="about-me">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 col-xs-12">
+				<div class="col-md-6 col-xs-6">
+					<img src="toshi face.jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col-md-6 col-xs-6">
 					<p class="display-4 text-md-center text-xs-center">Que sou eu</p>
 					<p class="lead text-justify">
 						Alguém que faz seu próprio caminho. Sou aventureiro. Um sonhador procurando sabedoria na jornada que chamamos de vida.
@@ -108,6 +135,107 @@
 					<p class="lead text-justify">
 						Meu grande sonho é <em>viver a vida!</em>. Desfrutar das experiências que ela proporciona, trabalhar sempre com novos ideais, e expandi-los para o mundo.
 					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="skills">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<p class="lead text-md-center text-xs-left display-4">
+						Habilidades
+					</p>
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Empreendedorismo
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Hipnose
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Geração de ideias
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Comunicação e liderança
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Oratória
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Linguagem Corporal
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Mágica
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Biotecnologia
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Nano tecnologia
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Noções de informática
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">
+							Esportes
+						</p>
+					</div>
+				</div>
+				<div class="col-md-3 col-xs-3">
+					<div class="skill">
+						<p class="lead">Gestão de conlfitos</p>
+					</div>
 				</div>
 			</div>
 		</div>

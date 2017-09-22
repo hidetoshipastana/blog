@@ -13,10 +13,7 @@
 
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-	<script src="js/countUP.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="jquery-3.2.1.slim.min.js"></script>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<style>
 		header{
 			background-image: url("toshi.jpg");
@@ -43,10 +40,10 @@
 			background-color: #c0392b;
 			padding-top: 10px;
 			padding-bottom: 10px;
+
 		}
 			#categoria {
 				color: white;
-				margin-bottom: 10px;
 			}
 		#about-me{
 			background-color: #8e44ad;
@@ -66,7 +63,14 @@
 			margin-top: 10px;
 			margin-bottom: 10px;
 			text-align: center;
+			transition: all 0.5s;
 		}
+		.skill:hover{
+			color: white;
+			cursor:pointer;
+			background-color: red;
+		}
+
 	</style>
 </head>
 <body>
@@ -90,6 +94,7 @@
 				<div class="col-md-4"></div>
 				<div class="col-md-4 col-xs-12">
 					<a href="" class="btn btn-primary btn-block">peça um artigo </a>
+
 				</div>
 				<div class="col-md-4"></div>
 			</div>
@@ -126,7 +131,6 @@
 			</div>
 		</div>
 	</section>
-
 	<section id="about-me">
 		<div class="container">
 			<div class="row">
@@ -134,7 +138,7 @@
 					<img src="toshi face.jpg" class="img-fluid" alt="">
 				</div>
 				<div class="col-md-6 col-xs-6">
-					<p class="display-4 text-md-center text-xs-center">Quem sou eu</p>
+					<p class="display-4 text-md-center text-xs-center">About me</p>
 					<p class="lead text-justify">
 						Alguém que faz seu próprio caminho. Sou aventureiro. Um sonhador procurando sabedoria na jornada que chamamos de vida.
 					</p>
@@ -148,7 +152,7 @@
 			</div>
 		</div>
 	</section>
-
+	<hr>
 	<section id="skills">
 		<div class="container">
 			<div class="row">
@@ -178,7 +182,7 @@
 				<div class="col-md-3 col-xs-3">
 					<div class="skill">
 						<p class="lead">
-							Geração de ideias
+							Gestão de ideias
 						</p>
 					</div>
 				</div>
@@ -249,5 +253,152 @@
 			</div>
 		</div>
 	</section>
+	<hr>
+	<section id="seo">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					<h3 class="text-xs-center text-md-center">
+						De onde veio SEO?
+					</h3>
+				
+					<p class="lead text-justify">
+						Acho que você deve conhecer o verbo "Googlar" que foi criado a partir da frase "buscar no google". Hoje, "Googlar" é sinônimo de "fazer uma busca no Google".
+					</p>
+					<p>Um pouco de história</p>
+					<p class="lead text-justify">
+						Mas o que é esse tal de Google?
+					</p>
+					<p>O Gênesis</p>
+					<p class="lead text-justify">
+						Bom, o Google, antes de mais nada foi um projeto criado por [X] e [Y] ma universidade de [U] em 199[X] que pretendia reunir os resultados dos jogos de basquetes da cidade de [CITY] e disponibilizalos em um local de fácil acesso e de forma prática e eficaz.
+					</p>
+					<p class="lead text-justify">Perceba que basquete é algo de extremo nicho, uma especificidade. Mas o projeto google não. O projeto google seria algo muito maior do que os próprios criadores chegaram a immaginar.</p>
+					<p class="lead text-justify">
+						Com a explosão de internet na década de 80 a quantiade de arquivos(músicas, vídeos, imagens, livros, e sites) era gigantesca, realmente parecida com um oceano inesploravél. Tentar reunir essas informações parecia uma coisa de louco, organizar então! Ninguém queria se meter... <br>
+						Por dois principais motivos: <br>
+						<ol type="number">
+							<li>
+								Limitação de hardware: 
+								<ul>
+									<li>
+										Nessa época os computadores ainda eram bem limitados quanto a memória e processamento.
+									</li>
+								</ul>
+							</li>
+						</ol>
+						<ol type="number">
+							<li>
+								Limitação financeira: 
+								<ul>
+									<li>
+										Não estamos falando de uma grande empresa que pretende dominar o mecado. Estamos falando de dois jovens universitários que pretendiam ser visionários.
+									</li>
+								</ul>
+							</li>
+						</ol>
+					</p>
+					<p class="lead text-justify">
+						Então, usando alguns computadores antigos da universidade esses caras montaram um <em>setup</em> e começaram a trabalhar em um algoritmo que fosse capaz de varrer a internet inteira. Mesmo eles não terem nenhum conhecimento aprofundado em programação, eles bolaram o primeiro algoritmo (um dos poucos algoritmos do Google que são publicos até hoje) que seria executado por um robô, esse robô - ainda embrionário - nada mais era do que o poderoso Googlebot.
+					</p>
+					<p class="lead text-justify">
+						Como funcionava esse tal algoritmo?
+					</p>
+					<p>O Googlebot</p>
+					<p class="lead text-justify">Bom, imagine que eu tenho o site "A", e você tem o site "B". No meu site eu tenho um link que aponta para o seu site. Quando o Googlebot entra no meu site para fazer a análise ele busca todos os links e vai atras procurando qual desse links linka devolta para o meu site, entendeu?. Tá bom, suponha que ele chegou no seu site pelo meu, isso significa que o seu site é uma autoridade, ou seja, o conteúdo que ele possuí é importante. E já que o seu site possuí mais autoridade do que o meu, quando o seu site linkar para o meu o Googlebot entende que eu estou recebendo um reconhecimento por uma autridade, e isso faz com que o meu site seja também uma autoridade e ganhe pontos no que eles chamaram de Page Authority (Autoridade de página). Então quanto mais links apontarem para o seu site, mais autoridade ele ganha.</p>
+
+					<p class="lead text-justify">
+						Perceba que não estou falando de Google, estou exlicando uma das primeiras formas de pensar do Googlebot. Nesse sentido surgiu umas das melhores formas de "atrair" o Googlebot para um site: gerando links para ele.
+					</p>
+
+					<p class="lead text-justify">
+						Esse algoritmo fez um baita sucesso, e com esse sucesso outro algoritmo foi implementado: o de <strong>classificação de relevância</strong>. Esse outro algoritmo em conjunto com o primeiro, entra em um site, varre o site inteiro, gera uma lista de "palavras chaves" (palavras mais usadas e que mais se encaixam naquele tipo de conteúdo) e também classifica a relevância do site com base nas palavras contidas no site e com base nas palavras contidas nos sites que linkam ou que recebem linkagem.
+					</p>
+					<p class="lead text-justify">
+						E o Googlebot não para! Ele começou a varrer a internet inteira! 24h por dia, 7 dias por semana. Gerando um volume de informações mosntruosa!
+					</p>
+					<p class="lead text-justify">A grande sacada é ele está sempre pesquisando na internet e salvando os resultados.</p>
+					<p class="lead text-justify">
+						Isso faz com que ele tenha um controle muito maior sobre os dados. E assim manipula-los.
+					</p>
+					<p class="lead text-justify">
+						Então antes de você fazer uma pesquina no google, provavelmente ele já fez essa mesma pequina antes. O que ele precisa saber é que é você e o que você precisa para então lhe 'sugerir' os resultados que mais se adequam a seu perfil.
+					</p>
+					<p class="lead text-justify">
+						Toda essa sugestão é baseado em inúmeras regras de estética de código fonte, estétia de conteúdo, estétia de infra estrutura.
+					</p>
+					<p class="lead text-justify">
+						Conhecer essas regras nos permite facilitar o processo de 'sugestões' para o usuário leitor. Estruturando um site, seu conteúdo e sua performace para que ele possa ter um alcance de usuários muito maior.
+					</p>
+					<p>Outros bots</p>
+					<p class="lead text-justify">
+						Não existe apenas o robô do Google. Várias empresa também já criaram seus buscadores, é o caso da <em>Microsoft</em> - com o Live Search, posteriormente se tornou o MSN (<em>The Microsoft Network</em>) e então hoje é o nosso querido e amado BING. A YAHOO também fez um grande sucesso com o seu <em>Yahoo Search</em>, mas acabou perdendo força e hoje é um buscador bem limitado. Temos também o <em>DuckDuckGo.com</em> um buscador que mantém a privacidade do usuário. Lembra que o google precisa saber antes quem você é para depois gerar o resultado da sua pesquisa baseado no seu perfil? O DuckDuckGo é ao contrário, mesmo sendo um ótimo buscador ainda é bem limitado.
+					</p>
+					<h3 class="text-xs-center text-md-center">
+						Então o que é SEO?
+					</h3>
+					<p class="lead text-justify">
+						SEO - <em>Search Engine Optimization</em> - nada mais é do que gerar conteúdo e estruturar um site ou artigo de acordo com os padrões dos buscadores WEB - Web Crawlers.
+					</p>
+					<p class="lead text-justify">
+						Para que um site tenha uma boa colocação nos buscadores é importante ele possuir bastante conteúdo, e esse conteudo precisa ser bem escrito para gerar um bom engajamento com seu público. Uma artigo que é muito lido na internet certamente fará com o site ganhe uma visibilidade boa quando ós usuários leitores buscarem por aquele tipo de conteúdo.
+					</p>
+					<p class="lead text-justify">
+						Otimizaor um buscador nada mais é do que dar a ele o que procura. A partir do momento que um robô entra em um site o SEO já esto está ocorrendo. Se esse for otimizado para os robores certamente ele ganhará pontos e relevância nas pesquinas organicas (que aquelas pesquisas em que você não precisa pagar para seu site ou artiga esteja em uma das páginas de resultados de uma certa pesquisa). Caso o site não esteja orimizado para SEO certamente ele será punido de forma com que sua visibilidade diminua na rede. E em certos casos, se o site for muito ruim, os crawlers nunca mais voltam!
+					</p>
+					<p class="lead text-justify">
+						Eu posso falar como redator, que a padronização de conteúdo em um site é de fundamental importância para se chegar no topo do Google.
+					</p>
+					<p class="lead text-justify">
+						Seu site gerando mais visitas ele ganha mais popularidade, ele ganhando mais popularido você lucra mais com isso!
+					</p>
+					<p class="lead text-justify">
+						Então <button style="cursor: pointer;" class="btn btn-primary">peça agora um pacote de artigos atimizados para SEO</button> para alimentar seu site com um conteúdo de qualidade, autoral, sem <em>copy paste</em>, sem <em>fake news</em>, nos padrões do Google e demais buscadores!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="os-artigos">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-xs-12">
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<!-- modais -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+	<script src="js/countUP.min.js"></script><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 </body>
 </html>
